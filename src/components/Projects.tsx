@@ -29,21 +29,21 @@ const Projects = () => {
                   className="block absolute right-0 top-0 w-20 md:w-16 lg:w-52 opacity-60"
                 />
                 <div className='flex flex-col w-full'>
-                <HeaderSmall text="Let’s walk the talk!" />
+                <HeaderSmall text="Let's walk the talk!" />
 
                 <h1 className="sm:w-4/5 mb-3 mt-1 text-xl sm:text-2xl  lg:text-4xl font-normal tracking-wide text-white leading-normal lg:leading-7">
-                  Some awesome <span className="text-pink-600 font-bold">products</span> for the awesome
+                  Some awesome <span className="text-accent font-bold">products</span> for the awesome
                   poeple
                 </h1>
                 <h1 className="mb-3 mt-6 text-xl sm:text-lg lg:text-2xl xl:text-1xl font-extrabold text-white leading-none text-wrap">
-                  Something he has <span className="text-pink-600 font-bold">built.</span>
+                  Something he has <span className="text-accent font-bold">built.</span>
                 </h1>
                 <div className="hidden  w-full lg:flex m-5 justify-end transform transform-all animate-translatedown">
                   <Link href="#projects">
                     <Image
                       src={ArrowRightSVG}
                       alt="Next"
-                      className="hidden  w-14  lg:block  lg:mt-5 transform rotate-90 "
+                      className="hidden w-14  lg:block  lg:mt-5 transform rotate-90"
                     />
                   </Link>
                 </div>
@@ -55,21 +55,21 @@ const Projects = () => {
                 <TextCards
                   heading="Websites"
                   text=" He adds certain special hidden recipes and making his websites look enticing."
-                  color="bg-green-600"
+                  color="bg-blue-400 border-2"
                 />
               </div>
               <div className="w-64 h-auto my-4 sm:ml-40 sm:-my-6 lg:ml-60 lg:-my-10 shadow-light-xl hover:shadow-light-3xl transform transition-all duration-300 hover:scale-110 z-auto">
                 <TextCards
                   heading="Apps"
                   text="The art of creating some awesome smartphone applications using React Native."
-                  color="bg-pink-600"
+                  color="bg-gradient-to-b from-blue-400 to-accent border-2"
                 />
               </div>
               <div className="w-64 h-auto shadow-light-xl hover:shadow-light-3xl transform transition-all duration-300 hover:scale-110">
                 <TextCards
                   heading="UI/UX"
                   text="He uses his outstanding engineering abilities to provide users an awesome interface and experience"
-                  color="bg-green-600"
+                  color="bg-accent border-2"
                 />
               </div>
             </div>
