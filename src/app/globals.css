@@ -10,8 +10,8 @@ body {
   /* cursor: none; */
   scroll-behavior: smooth;
   overflow-x: hidden;
-  user-select: none;
   -webkit-user-select: none;
+  user-select: none;
 }
 
 a {

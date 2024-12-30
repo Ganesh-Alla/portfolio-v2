@@ -28,9 +28,9 @@ export default function ProjectList(props: ProjectListProps) {
         scale: 1.02,
         boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.1)",
       }}
-      className="w-full overflow-hidden bg-foreground rounded-lg border border-accent/20 bg-card text-card-foreground shadow-md transition-all duration-300 hover:shadow-lg dark:bg-zinc-800 flex flex-col"
+      className="w-full overflow-hidden bg-white rounded-lg border border-accent/20 bg-card text-card-foreground shadow-md transition-all duration-300 hover:shadow-lg  flex flex-col"
     >
-      <div className="relative w-full " style={{ aspectRatio: "16/9" }}>
+      <div className="relative w-full aspect-video border border-b-2">
         <Image
           loading="lazy"
           className="h-full w-full object-cover"

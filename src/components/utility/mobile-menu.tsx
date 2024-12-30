@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 
 import { Dialog,DialogPanel, Transition, TransitionChild } from "@headlessui/react";
 
-import ThemeSwitch from "@/components/utility/theme-switch";
+// import ThemeSwitch from "@/components/utility/theme-switch";
 import { type NavbarProps } from "../NavBar";
 import { classNames } from "@/classes/classNames";
 
@@ -56,7 +56,7 @@ export default function MobileMenu({
                     {link.title}
                   </button>
                 ))}
-                <ThemeSwitch setClose={setOpenMenu} />
+                {/* <ThemeSwitch setClose={setOpenMenu} /> */}
               </div>
               <div className="absolute bottom-0 py-6">©2024 Ganesh-Alla</div>
             </DialogPanel>

@@ -22,7 +22,7 @@ const Projects=() => {
       </div>
           <div className="mx-auto mt-16 max-w-5xl text-center text-foreground md:mt-28">
             <span className="text-xl font-bold md:text-2xl">
-              I am currently building new projects and learning machine learning to expand my skill set beyond full stack.
+              I am currently building new projects and learning GenAI to expand my skill set beyond full stack.
             </span>
             <p className="mt-10 text-base md:text-xl">
               Visit my github to see some of the latest projects{" "}
